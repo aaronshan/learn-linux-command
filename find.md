@@ -3,7 +3,9 @@
 #find . -name abc
 ```
 .: 表示当前目录
+
 -name: 表示按照名称查找
+
 ####2)查看当前文件夹及子文件夹里有没有“xyz”目录
 ```
 #find . -type d -name xyz
@@ -38,7 +40,9 @@
 #find . -amin -5
 ```
 访问过用amin，修改过用mmin，状态改变过用cmin
+
 精确到分钟的用amin，mmin，cmin，精确到天的用atime，mtime，ctime
+
 在5分钟之内的用－5，在5分钟以上的用＋5
 ####9) 查找当前目录及子目录下文件大小小于10M的所有文件
 ```
