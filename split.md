@@ -47,6 +47,6 @@ split000  split001  split002  split003  splitTest.txt
 
 可以使用cat命令将切分后的文件合并成新的文件：
 ```
-$ cat split0* &gt; original.txt  
+$ cat split0* > original.txt  
 ```
 
