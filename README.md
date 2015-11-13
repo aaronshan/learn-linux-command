@@ -8,3 +8,4 @@
 * [tr](https://github.com/aaronshan/learn-linux-command/blob/master/tr.md)
 * [rsync](https://github.com/aaronshan/learn-linux-command/blob/master/rsync.md)
 * [ln](https://github.com/aaronshan/learn-linux-command/blob/master/ln.md)
+* [date](https://github.com/aaronshan/learn-linux-command/blob/master/date.md)
