@@ -9,8 +9,8 @@ curl www.csdn.net > file.html
 ```
 curl -o file.html www.csdn.net
 ```
-这个会显示下载进度条，如果你不想让它显示下载进度条，则只需要再加上-s参数，即curl -s -o file.html www.csdn.net即可。
-如果想使用断点续传功能，则只需要加上-C参数。即：curl -C -o file.html www.csdn.net即可。
+这个会显示下载进度条，如果你不想让它显示下载进度条，则只需要再加上-s参数，即curl -s -o file.html www.csdn.net 即可。
+如果想使用断点续传功能，则只需要加上-C参数。即：curl -C -o file.html www.csdn.net 即可。
 curl也支持代理访问网络。如下所示：
 ```
 curl -x 192.168.1.1:9090 -o file.html www.csdn.net
