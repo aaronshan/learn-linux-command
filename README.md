@@ -4,3 +4,4 @@
 * [split](https://github.com/aaronshan/learn-linux-command/blob/master/split.md)
 * [find](https://github.com/aaronshan/learn-linux-command/blob/master/find.md)
 * [curl](https://github.com/aaronshan/learn-linux-command/blob/master/curl.md)
+* [du](https://github.com/aaronshan/learn-linux-command/blob/master/du.md)
