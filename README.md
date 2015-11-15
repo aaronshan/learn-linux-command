@@ -14,6 +14,7 @@
 * [rsync](https://github.com/aaronshan/learn-linux-command/blob/master/rsync.md)
 * [seq](https://github.com/aaronshan/learn-linux-command/blob/master/seq.md)
 * [service](https://github.com/aaronshan/learn-linux-command/blob/master/service.md)
+* [shutdown](https://github.com/aaronshan/learn-linux-command/blob/master/shutdown.md)
 * [split](https://github.com/aaronshan/learn-linux-command/blob/master/split.md)
 * [tr](https://github.com/aaronshan/learn-linux-command/blob/master/tr.md)
 * [uname](https://github.com/aaronshan/learn-linux-command/blob/master/uname.md)
