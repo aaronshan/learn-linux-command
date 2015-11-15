@@ -17,6 +17,7 @@
 * [split](https://github.com/aaronshan/learn-linux-command/blob/master/split.md)
 * [tr](https://github.com/aaronshan/learn-linux-command/blob/master/tr.md)
 * [uname](https://github.com/aaronshan/learn-linux-command/blob/master/uname.md)
+* [wc](https://github.com/aaronshan/learn-linux-command/blob/master/wc.md)
 * [zip](https://github.com/aaronshan/learn-linux-command/blob/master/zip.md)
 
 ## 2.终端编辑快捷键
