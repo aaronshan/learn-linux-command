@@ -8,6 +8,7 @@
 * [du](https://github.com/aaronshan/learn-linux-command/blob/master/du.md)
 * [find](https://github.com/aaronshan/learn-linux-command/blob/master/find.md)
 * [ln](https://github.com/aaronshan/learn-linux-command/blob/master/ln.md)
+* [service](https://github.com/aaronshan/learn-linux-command/blob/master/service.md)
 * [rsync](https://github.com/aaronshan/learn-linux-command/blob/master/rsync.md)
 * [split](https://github.com/aaronshan/learn-linux-command/blob/master/split.md)
 * [tr](https://github.com/aaronshan/learn-linux-command/blob/master/tr.md)
