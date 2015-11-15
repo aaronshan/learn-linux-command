@@ -3,8 +3,8 @@
 这是我学习linux命令的总结笔记, 包含的命令如下:
 
 ## 1.命令列表
-* [curl](https://github.com/aaronshan/learn-linux-command/blob/master/curl.md)
 * [bunzip2](https://github.com/aaronshan/learn-linux-command/blob/master/bunzip2.md)
+* [curl](https://github.com/aaronshan/learn-linux-command/blob/master/curl.md)
 * [date](https://github.com/aaronshan/learn-linux-command/blob/master/date.md)
 * [du](https://github.com/aaronshan/learn-linux-command/blob/master/du.md)
 * [find](https://github.com/aaronshan/learn-linux-command/blob/master/find.md)
@@ -15,6 +15,7 @@
 * [split](https://github.com/aaronshan/learn-linux-command/blob/master/split.md)
 * [tr](https://github.com/aaronshan/learn-linux-command/blob/master/tr.md)
 * [uname](https://github.com/aaronshan/learn-linux-command/blob/master/uname.md)
+* [zip](https://github.com/aaronshan/learn-linux-command/blob/master/zip.md)
 
 ## 2.终端编辑快捷键
 注意：
