@@ -4,6 +4,7 @@
 
 ## 1.命令列表
 * [curl](https://github.com/aaronshan/learn-linux-command/blob/master/curl.md)
+* [bunzip2](https://github.com/aaronshan/learn-linux-command/blob/master/bunzip2.md)
 * [date](https://github.com/aaronshan/learn-linux-command/blob/master/date.md)
 * [du](https://github.com/aaronshan/learn-linux-command/blob/master/du.md)
 * [find](https://github.com/aaronshan/learn-linux-command/blob/master/find.md)
