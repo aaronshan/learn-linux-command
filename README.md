@@ -12,6 +12,7 @@
 * [gzip](https://github.com/aaronshan/learn-linux-command/blob/master/gzip.md)
 * [ln](https://github.com/aaronshan/learn-linux-command/blob/master/ln.md)
 * [rsync](https://github.com/aaronshan/learn-linux-command/blob/master/rsync.md)
+* [seq](https://github.com/aaronshan/learn-linux-command/blob/master/seq.md)
 * [service](https://github.com/aaronshan/learn-linux-command/blob/master/service.md)
 * [split](https://github.com/aaronshan/learn-linux-command/blob/master/split.md)
 * [tr](https://github.com/aaronshan/learn-linux-command/blob/master/tr.md)
