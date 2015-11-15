@@ -7,7 +7,7 @@
 * [date](https://github.com/aaronshan/learn-linux-command/blob/master/date.md)
 * [du](https://github.com/aaronshan/learn-linux-command/blob/master/du.md)
 * [find](https://github.com/aaronshan/learn-linux-command/blob/master/find.md)
-* [gizp](https://github.com/aaronshan/learn-linux-command/blob/master/gizp.md)
+* [gzip](https://github.com/aaronshan/learn-linux-command/blob/master/gzip.md)
 * [ln](https://github.com/aaronshan/learn-linux-command/blob/master/ln.md)
 * [rsync](https://github.com/aaronshan/learn-linux-command/blob/master/rsync.md)
 * [service](https://github.com/aaronshan/learn-linux-command/blob/master/service.md)
