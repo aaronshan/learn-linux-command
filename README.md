@@ -11,6 +11,7 @@
 * [rsync](https://github.com/aaronshan/learn-linux-command/blob/master/rsync.md)
 * [split](https://github.com/aaronshan/learn-linux-command/blob/master/split.md)
 * [tr](https://github.com/aaronshan/learn-linux-command/blob/master/tr.md)
+* [uname](https://github.com/aaronshan/learn-linux-command/blob/master/uname.md)
 
 ## 2.终端编辑快捷键
 注意：
