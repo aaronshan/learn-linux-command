@@ -1,6 +1,6 @@
 **learn-linux-command**
 =======================
-这是我学习linux命令的总结笔记, 包含的命令如下:
+这是我学习linux命令的总结笔记, 包含的命令如下:(持续更新中...)
 
 ## 1.命令列表
 * [bunzip2](https://github.com/aaronshan/learn-linux-command/blob/master/bunzip2.md)
