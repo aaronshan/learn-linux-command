@@ -76,3 +76,34 @@ curl -H "Accept: application/json" -H "Content-type: application/json" -X POST -
 ```
 curl -H "Accept: application/json" -H "Content-type: application/json" -X PUT -d '{"title":"a new test1"}'http://a.test.com/api/post
 ```
+使用curl测试接口响应时间：
+```
+curl -o /dev/null -s -w '%{time_connect}:%{time_starttransfer}:%{time_total}\n' 'http://test.com/api/a'    
+0.081:0.272:0.779
+```
+通过 -o 参数发送到 /dev/null，-s 参数去掉所有状态信息， -w 参数让 curl 写出列出的计时器的状态信息。  
+curl 使用的计时器：
+| 计时器 | 描述 |
+|---------| -------|
+|time_connect |建立到服务器的 TCP 连接所用的时间   |
+|time_starttransfer|在发出请求之后,Web 服务器返回数据的第一个字节所用的时间   |
+|time_total|完成请求所用的时间    |
+|time_namelookup|DNS解析时间,从请求开始到DNS解析完毕所用时间(记得关掉 Linux 的 nscd 的服务测试)    |
+|speed_download|下载速度，单位-字节每秒。  |  
+
+这些计时器都相对于事务的起始时间,甚至要先于 Domain Name Service（DNS）查询.因此,在发出请求之后,Web 服务器处理请求并开始发回数据所用的时间是 0.272 – 0.081 = 0.191 秒.客户机从服务器下载数据所用的时间是 0.779 – 0.272 = 0.507 秒.
+
+通过观察curl数据及其随时间变化的趋势,可以很好地了解站点对用户的响应性.以上变量会按curl认为合适的格式输出，输出变量需要按照%{variable_name}的格式，如果需要输出%，double一下即可，即%%，同时，\n是换行，\r是回车，\t是TAB。
+
+curl设置超时时间：
+使用curl时，有两个超时时间：一个是连接超时时间，另一个是数据传输的最大允许时间。
+连接超时时间用 –connect-timeout 参数来指定(参数值的单位为秒)，数据传输的最大允许时间用 -m 参数来指定（参数值的单位为秒）。
+例如：
+```
+curl –connect-timeout 10 -m 20 “http://test.com/api/a”
+```
+
+连接超时的话，出错提示形如：
+curl: (28) connect() timed out!
+数据传输的最大允许时间超时的话，出错提示形如：
+curl: (28) Operation timed out after 2000 milliseconds with 0 bytes received
