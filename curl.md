@@ -83,6 +83,7 @@ curl -o /dev/null -s -w '%{time_connect}:%{time_starttransfer}:%{time_total}\n' 
 ```
 通过 -o 参数发送到 /dev/null，-s 参数去掉所有状态信息， -w 参数让 curl 写出列出的计时器的状态信息。  
 curl 使用的计时器：
+
 | 计时器 | 描述 |
 |---------| -------|
 |time_connect |建立到服务器的 TCP 连接所用的时间   |
